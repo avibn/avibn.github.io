@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,800');
+
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    color: azure;
+    font-family: Raleway;
+}
+
+a {
+    color: azure;
+    text-decoration: none;
+}
+
+body {
+    background: url('../extrastuff/Artboard%201.png') no-repeat;
+    background-size: cover;
+    padding-bottom: 500px;
+}
+
+nav {
+    padding: 50px;
+}
+
+nav ul{
+    list-style-type: none;
+    float: right;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    color: black;
+    padding: 0 30px;
+}
+
+#logo{
+    font-size: 3em;
+}
+.cntnr{
+    text-align: center;
+    width: 60%;
+    margin: 110px auto;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+.cntrn p {
+    font-size: 1.3em;
+    line-height: 1.4em;
+}
+
+/*
+.cont{
+    text-align: center;
+    width: 60%;
+    margin: 110px auto;
+    position:relative;
+    top: 900px;
+    position: absolute;
+}
+*/
+.cont{
+    text-align: center;
+    width: 60%;
+    margin: 560px auto;
+}
+
+.cont p {
+    font-size: 1.3em;
+    line-height: 1.4em;
+    color: black;
+}
