@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,800');
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    color: black;
+    font-family: Montserrat;
+}
+
+
+/*Navbar*/
+header {
+    background: lightblue;
+}
+
+.logo {
+    float: left;
+    padding-left: 50px;
+    color: darkslategray;
+}
+
+.navbar {
+    padding-bottom: 80px;
+    color: aliceblue;
+    padding-top: 6px;
+
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+    margin-left: 70px;
+    padding-top: 23px;
+    display: inline-block;
+    position: relative;
+}
+
+nav a {
+    color: darkslategray;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav a:hover{
+    color: aliceblue;s
+    font-size: 1.6em;
+}
+
+/*Navbar End*/
+
+
+.h3h3 {
+    text-align: center;
+}
+
+.showcase{
+    margin-left: 20px;
+    float: right;
+}
+
+
+.topcontainer{
+    text-align: center;
+    background: #82a6e0;
+    padding-bottom: 50px;
+    color: aliceblue;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-shadow: 0 4px 7px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.topcontainer h1,h2 {
+    text-align: center;
+}
+
+.topcontainer p3 {
+    line-height: 1.4em;
+}
+.topcontainer:hover {
+    box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
+}
+
+.projecthead{
+    background-color:skyblue;
+    transition: 1s;
+}
+.projecthead h1{
+    font-size: 1.7em;
+    color: aliceblue;
+    text-align: center;
+}
+
+.projecthead:hover {
+    background-color:#928DAB;
+}
+
+.project{
+    margin: auto;
+}
+.projectcard {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+/*
+    padding-left: 40px;
+    padding-right: 40px;
+*/
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 10px 10px 10px 10px;
+    float: left;
+/*
+    margin-left: 25px;
+    margin-right: 25px;
+*/
+    max-width: 1000px;
+    width: 100%;
+    transition: 0.8s;
+}
+
+.projectcard:hover {
+    background-color:aliceblue;
+    box-shadow: 0 4px 50px 0 rgba(0,0,0,0.2);
+}
+.row {
+    
+    margin: 4px;
+}
+
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+.pcontainer{
+    float: left;
+    width: 50%;
+    
+}
+.pcontainerlarge {
+    width: 100%;
+    
+}
+.projectcardlarge {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 10px 10px 10px 10px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 250px;
+    margin-bottom: 25px;
+    margin-right: 250px;
+    max-width: 1000px;
+    transition: 0.8s;
+    
+}
+.projectcardlarge:hover {
+    background-color:aliceblue;
+    box-shadow: 0 4px 50px 0 rgba(0,0,0,0.2);
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+@media screen and (max-width: 900px) {
+    ..projectcardlarge {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .pcontainer {
+        width: 100%;
+    }
+    .projectcardlarge{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
